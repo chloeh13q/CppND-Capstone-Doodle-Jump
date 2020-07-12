@@ -1,11 +1,35 @@
 # Capstone Project: Doodle Jump
 
-This is the capstone project for the Udacity C++ Nanodegree Program.
+This is the capstone project for the Udacity C++ Nanodegree Program (Option 1: build the project of your choice).
 This project is an imitation of the Doodle Jump game. The player can use left and right arrow keys to move on the screen, and the space bar to jump. Several features (such as scoring and looping tile map) are still under development.
 
-## Class structure
+## Class Structure
 The structure of the implementation of this game is listed below. Note that although the current version contains relatively few features, the structure of the program is designed in such a way that additional features can be added in a straightforward manner without the need to rewrite the whole program.
-- Camera: 
+- Helper classes
+  - TextureManager: manages displays of background, tile maps, and font
+  - MapParser: parses and manages all tile maps
+  - Timer: manages game time
+- Player actions
+  - Doodle: manages all rendering and updating behaviors of the player
+  - Camera: allows for camera view centered at the player
+  - Collider and CollisionHandler: handles collisions between the player and the tile map
+  - Inputs: handles user inputs
+  - RigidBody: handles game physics (gravity, force, velocity, etc)
+- Game: main logic of the game (render, update, clean)
+
+## Rubrics Items
+
+- The project demonstrates an understanding of C++ functions and control structures.
+- The project reads data from a file and process the data, or the program writes data to a file. (e.g. TextureManager.cpp, TileLayer.cpp, MapParser.cpp)
+- The project accepts user input and processes the input. (e.g. Inputs.cpp)
+- The project uses Object Oriented Programming techniques.
+- Classes use appropriate access specifiers for class members.
+- Class constructors utilize member initialization lists. (e.g. TileLayer.cpp)
+- Classes abstract implementation details from their interfaces. (e.g. Layer.hpp)
+- Classes encapsulate behavior.
+- Classes follow an appropriate inheritance hierarchy. (e.g. TileLayer inherits from Layer; Doodle inherits from GameObject)
+- Derived class functions override virtual base class functions. (e.g. TileLayer.cpp)
+- The project makes use of references in function declarations. (e.g. SDL_Rect)
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
