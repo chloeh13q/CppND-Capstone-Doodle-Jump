@@ -1,5 +1,12 @@
 # Capstone Project: Doodle Jump
 
+This is the capstone project for the Udacity C++ Nanodegree Program.
+This project is an imitation of the Doodle Jump game. The player can use left and right arrow keys to move on the screen, and the space bar to jump. Several features (such as scoring and looping tile map) are still under development.
+
+## Class structure
+The structure of the implementation of this game is listed below. Note that although the current version contains relatively few features, the structure of the program is designed in such a way that additional features can be added in a straightforward manner without the need to rewrite the whole program.
+- Camera: 
+
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
@@ -17,12 +24,9 @@
     sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev
     ```
   * Windows and Mac:
-    * SDL2 >= 2.0
-      * All installation instructions can be found [here](https://wiki.libsdl.org/Installation)
-    * SDL2_image
-      * All installation instructions can be found [here](https://www.libsdl.org/projects/SDL_image/)
-    * SDL2_ttf
-      * All installation instructions can be found [here](https://www.libsdl.org/projects/SDL_ttf/)
+    * SDL2 >= 2.0 : All installation instructions can be found [here](https://wiki.libsdl.org/Installation)
+    * SDL2_image : All installation instructions can be found [here](https://www.libsdl.org/projects/SDL_image/)
+    * SDL2_ttf : All installation instructions can be found [here](https://www.libsdl.org/projects/SDL_ttf/)
 
 ## Basic Build Instructions
 1. Clone this repo.
