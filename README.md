@@ -11,9 +11,21 @@
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same instructions as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
+* SDL dependencies
+  * Linux: 
+    ```
+    sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev
+    ```
+  * Windows and Mac:
+    * SDL2 >= 2.0
+      * All installation instructions can be found [here](https://wiki.libsdl.org/Installation)
+    * SDL2_image
+      * All installation instructions can be found [here](https://www.libsdl.org/projects/SDL_image/)
+    * SDL2_ttf
+      * All installation instructions can be found [here](https://www.libsdl.org/projects/SDL_ttf/)
 
 ## Basic Build Instructions
 1. Clone this repo.
 2. Make a build directory in the top level directory: mkdir build && cd build
 3. Compile: cmake .. && make
-4. Run it: ./Game.
+4. Run it: ./DoodleJump.
