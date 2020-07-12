@@ -13,7 +13,7 @@ Menu::Menu() {
     if (TTF_Init() == -1) {
         printf( "SDL_ttf could not initialize! SDL_ttf Error: %s\n", TTF_GetError() );
     } else {
-        font = TTF_OpenFont("assets/DoodleJump.ttf", 20);
+        font = TTF_OpenFont("../assets/DoodleJump.ttf", 20);
         if (font == NULL) {
             printf("TTF_OpenFont: %s\n", TTF_GetError());
             std::cout << "Failed to load font!" << std::endl;

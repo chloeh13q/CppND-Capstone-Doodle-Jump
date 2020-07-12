@@ -47,12 +47,12 @@ void Game::Init(const char *title, int xpos, int ypos, int width, int height, bo
     MapParser::GetInstance()->Load();
     map = MapParser::GetInstance()->GetMap("map");
     
-    props = new Properties("assets/doodle.png", 0, 0, 80, 80);
+    props = new Properties("../assets/doodle.png", 0, 0, 80, 80);
     doodle = new Doodle(props);
-    TextureManager::GetInstance()->LoadTexture("assets/doodle.png", "doodle");
-    TextureManager::GetInstance()->LoadTexture("assets/background.png", "background");
+    TextureManager::GetInstance()->LoadTexture("../assets/doodle.png", "doodle");
+    TextureManager::GetInstance()->LoadTexture("../assets/background.png", "background");
     Camera::GetInstance()->SetTarget(doodle->GetOrigin());
-    TextureManager::GetInstance()->LoadFont("assets/DoodleJump.ttf");
+    TextureManager::GetInstance()->LoadFont("../assets/DoodleJump.ttf");
 }
 
 void Game::HandleEvents() {
