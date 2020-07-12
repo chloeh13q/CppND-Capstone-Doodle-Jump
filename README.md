@@ -17,7 +17,7 @@ The structure of the implementation of this game is listed below. Note that alth
   - RigidBody: handles game physics (gravity, force, velocity, etc)
 - Game: main logic of the game (render, update, clean)
 
-## Rubrics Items
+## Rubric Items
 
 - The project demonstrates an understanding of C++ functions and control structures.
 - The project reads data from a file and process the data, or the program writes data to a file. (e.g. TextureManager.cpp, TileLayer.cpp, MapParser.cpp)
