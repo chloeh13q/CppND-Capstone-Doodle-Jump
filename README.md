@@ -1,4 +1,4 @@
-# CppND-Capstone-Doodle-Jump
+# Capstone Project: Doodle Jump
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
