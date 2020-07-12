@@ -2,7 +2,7 @@
 
 TileLayer::TileLayer(int size, int rows, int cols, TileMap tmap, TilesetList tslist) : tileSize{size}, rowCount{rows}, colCount{cols}, tileMap{tmap}, tileSets{tslist} {
     for (unsigned int i = 0; i < tileSets.size(); i++) {
-        TextureManager::GetInstance()->LoadTexture(("assets/" + tileSets[i].source).c_str(), tileSets[i].name);
+        TextureManager::GetInstance()->LoadTexture(("../assets/" + tileSets[i].source).c_str(), tileSets[i].name);
     }
 }
 
