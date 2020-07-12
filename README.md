@@ -1,6 +1,7 @@
 # Capstone Project: Doodle Jump
 
 This is the capstone project for the Udacity C++ Nanodegree Program (Option 1: build the project of your choice).
+
 This project is an imitation of the Doodle Jump game. The player can use left and right arrow keys to move on the screen, and the space bar to jump. Several features (such as scoring and looping tile map) are still under development.
 
 ## Class Structure
