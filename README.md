@@ -52,6 +52,12 @@ The structure of the implementation of this game is listed below. Note that alth
     * SDL2 >= 2.0 : All installation instructions can be found [here](https://wiki.libsdl.org/Installation)
     * SDL2_image : All installation instructions can be found [here](https://www.libsdl.org/projects/SDL_image/)
     * SDL2_ttf : All installation instructions can be found [here](https://www.libsdl.org/projects/SDL_ttf/)
+    * XCode users need to change all SDL2-related include statements to:
+    ```
+    #include <SDL2/SDL.h>
+    #include <SDL2_image/SDL_image.h>
+    #include <SDL2_ttf/SDL_ttf.h>
+    ```
 
 ## Basic Build Instructions
 1. Clone this repo.
